@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2aedce2-ba79-4604-8fcd-97cf4d30be44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Munch1231/letsmodreboot/item/ItemLMRB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Munch1231/letsmodreboot/item/ItemMapleLeaf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Munch1231/letsmodreboot/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-01-03-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-01-03-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-01-03-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-01-03-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-01-03-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-01-03-3.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LetsModReboot/com/Munch1231/letsmodreboot/LetsModReboot.class" afterPath="$PROJECT_DIR$/out/production/LetsModReboot/com/Munch1231/letsmodreboot/LetsModReboot.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Munch1231/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/Munch1231/letsmodreboot/LetsModReboot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
     </list>
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -753,7 +740,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420306051658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Got a Maple Leaf Texture!">
+      <created>1420309260517</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1420309260517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -805,7 +798,8 @@
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Second Commit!" />
     <MESSAGE value="Finished Gui Config!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Gui Config!" />
+    <MESSAGE value="Got a Maple Leaf Texture!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got a Maple Leaf Texture!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
