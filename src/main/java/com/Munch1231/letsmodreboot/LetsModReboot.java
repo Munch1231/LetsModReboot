@@ -1,6 +1,7 @@
 package com.Munch1231.letsmodreboot;
 
 import com.Munch1231.letsmodreboot.handler.ConfigHandler;
+import com.Munch1231.letsmodreboot.init.ModItems;
 import com.Munch1231.letsmodreboot.proxy.IProxy;
 import com.Munch1231.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -24,6 +25,8 @@ public class LetsModReboot
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
