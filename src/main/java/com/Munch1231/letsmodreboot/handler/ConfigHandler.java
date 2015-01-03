@@ -13,25 +13,23 @@ public class ConfigHandler {
     public static void init(File configFile) {
         if (config == null) {
             config = new Configuration(configFile);
+            loadConfigs();
         }
     }
 
     @SubscribeEvent
-    public void onConfigChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event) {
+    public void onConfigChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
         if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
         {
             loadConfigs();
         }
     }
 
-    public void loadConfigs()
+    private static void loadConfigs()
     {
         testValue = config.getBoolean("ConfigValue", Configuration.CATEGORY_GENERAL, false, "Example Config Value");
 
-        if (config.hasChanged())
-        {
-            config.save();
-        }
-
+        config.save();
     }
 }
